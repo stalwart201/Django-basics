@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Git-Basics</title>
+		<title>Django-Basics</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -41,88 +41,144 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-				    <body background="git.jpg">
-					<h1>GIT Basics</h1>
+				    <body background="django.jpg">
+					<h1>Django Basics</h1>
 					<p>
 						<small>Contributors </small><br>
-						<small><a href="http://rishabhsingh.com">Rishabh Singh</a> / <a href="http://twitter.com/stalwart201">@stalwart201</a></small>
+						<small><a href="http://rishabhsingh.com">Rishabh Singh</a> / <a href="http://twitter.com/stalwart201">@stalwart201</a></small><br>
+
+					    <small><a>Shashank Aryan</a> / <a href="http://twitter.com/arlok31">@arlok31</a></small><br>
+					    
+                        <small><a >Shweta Suman</a> / <a href="http://twitter.com/cosmologist10">@cosmologist10</a></small><br>
+                        
+                        <small><a >Abhi Gupta</a> / <a href="http://twitter.com/abhi9898">@abhi9898</a></small><br>
 
 					</p>
 				</section>
 
 				<section>
-					<h2>What is GIT?</h2>
+					<h2>What is Django?</h2>
 
 				</section>
 				
 				<section>	
 
-					<h3>HISTORY OF GIT</h3>
+					<h1>Why Django</h1>
+					<p>
+					<ul>
+					    <li class="fragment"> Ridiculously fast.</li> 
+                        <li class="fragment"> Fully loaded.</li> 
+                        <li class="fragment"> Reassuringly secure.</li> 
+                        <li class="fragment"> Exceedingly scalable.</li>
+                        <li class="fragment"> Incredibly versatile.</li>
+                    </ul>
+
+                    </p>
 					
 				</section>
 
 
 				<section>
-					<h2>what is VCS?</h2>
-					<p>
+					<h2>what is Framework?</h2>
+                </section>
+
+				<section>
+                	<h2>Types of Framework</h2>
+                	<p>
 					<ul>
-					    <li class="fragment">It allows developers to work simultaneously.</li> 
-                        <li class="fragment">It does not allow overwriting each other’s changes.</li> 
-                        <li class="fragment">It maintains a history of every version.</li> 
+					    <li class="fragment">Oracle Application Development Framework</li> 
+                        <li class="fragment">Financial modeling applications</li> 
+                        <li class="fragment">Earth system modeling applications</li>
+                        <li class="fragment">Decision support systems</li>
+                        <li class="fragment">Multimedia framework - Media playback and authoring</li>
+                        <li class="fragment">Ajax framework / JavaScript framework</li>
+                        <li class="fragment">Web framework</li>
+                        <li class="fragment">Application framework - General GUI applications</li>
+                        <li class="fragment">Middleware</li>
+                        <li class="fragment">Cactus Framework - High performance scientific computing</li>
+                        <li class="fragment"> Enterprise Architecture framework</li>
+                        
                     </ul>
 
                     </p>
-				</section>
-
-				<section>
-                	<h2>Distributed Version Control System</h2>
                     
                 </section>
 
                 <section>
-					<h2>Why Git?</h2>
+                	<h2>Various other Web frameworks on Python.</h2>
+                	<p>
+					<ul>
+					    <li class="fragment">Flask.</li> 
+                        <li class="fragment">Bottle.</li> 
+                        <li class="fragment">Zope.</li> 
+                        <li class="fragment">Pyramid </li>
+                        <li class="fragment">CubicWeb</li>
+                        <li class="fragment">Web.py.</li> 
+                        <li class="fragment">Web2.py</li> 
+                    </ul>
+
+                    </p>
+                	
+                </section>
+
+                <section>
+					<h2>Installing Django</h2>
 					<p>
 					<ul>
-					    <li class="fragment">You can use git even when you're offline.</li> 
-					    <li class="fragment">Create branches, work locally, isolate your work and merge seamlessly.</li> 
-					    <li class="fragment">Code revisions (commit) that you made would be available to only you locally unless you push to remote repo. </li> 
+					    <li class="fragment">Install pip.</li> 
+					    <li class="fragment">Install Django via pip.</li> 
+					     
 					</ul> 
                     </p>
                 </section>
 
                 <section>
-                	<h2>What is github?</h2>
-                	
-                </section>
-
-                <section>
-                	<h2>Differnce between Git and Github</h2>
-                	
-                </section>
-
-                <section>
-                	<h2>Installing git on Linux</h2>
+                	<h2>Installing pip on Linux</h2>
 
                     <p>
                     <ul>
                        <li class="fragment">For Fedora users:</li> 
-                    <code>
-                       $ sudo yum install git-all
-                    </code>
-                 </p>
-                 <p>
+                    <li class="fragment"><code>
+                       $ sudo dnf install pip 
+                    </code></li>
+                    </p>
+                    <p>
                     	<li class="fragment">For Debian users:</li> 
 
-                    <code>
-                    	$ sudo apt-get install git-all 
-                    </code>
+                    <li class="fragment"><code>
+                    	$ sudo apt-get install pip 
+                    </code></li>
                     </ul>
-                     </p>
+                    </p>
                 </section>
+                
+                <section>
+                	<h2>Installing Django on Linux</h2>
+
+                    <p>
+                    <code>
+                       $ sudo pip install Django 
+                    </code>
+                    </p>
+                    <h2>To check the instaled version of Django on Linux</h2>
+
+                    <p>
+                    <code>
+                       $ pyhton -m django --version 
+                    </code>
+                    </p>
+                    </section>
 
                 <section>
-                	<h2>GIT WORKFLOW</h2>
-                	<img src="img/git_flow.png"></img>
+                	<h2>Creating a project on Django</h2>
+                	<li class="fragment">Create a directory named Django.</li>
+                	<li class="fragment">Open the path in terminal.</li> 
+                    <p>
+                    <li class="fragment"><code>
+                       $ django-admin startproject mysite 
+                    </code></li>
+                    <li class="fragment">'mysite' is the name of the project</li> 
+                    </p>
                 </section>
                 <section>	
                 	<h3>Obtain repo</h3>
