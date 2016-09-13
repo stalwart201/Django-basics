@@ -14,7 +14,7 @@
   * [Rishabh Singh](http://http://rishabhsingh.com)
   * [Shashank Aryan](http://twitter.com/arlok31)
   * [Shweta Suman](http://twitter.com/cosmologist10)
-  * [Abhi Gupta](http://twitter.com/abhi9898)
+  * [Mannu Gupta](http://twitter.com/theparadoxer02)
   * [Shashank Kumar](http://twitter.com/realslimshanky)
 
 ###Headines
