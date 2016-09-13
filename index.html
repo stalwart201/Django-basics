@@ -303,6 +303,35 @@
                     </p>
                 </section>
                 <section>
+                    <h2>Django admin site</h2>
+                    <p>
+                        <li class="fragment">To add, edit and delete the posts we've just modeled, we will use Django admin.</li>
+                        <li class="fragment">The admin is enabled in the default project template used by startproject.</li>
+                        <li class="fragment">To Register a model to the Admin</li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        from django.contrib import admin
+                    </code>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        from .models import model
+                    </code>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        admin.site.register(Modelame)
+                    </code>
+                    </li>
+                    </p>
+                </section>
+                <section>
                     <h2>Thank You</h2>
                 </section>
             </div>
