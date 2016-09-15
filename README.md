@@ -3,8 +3,7 @@
 
 ###How To Contribute
   * Clone this repo using `git clone <RepoLink>` on to your local machine or do a `Fork`.
-  * This repo has 2 Branches namely `master` and `gh-pages`. All the changes MUST be made on `gh-pages` branch.
-  * To change your current working branch `master` to `gh-pages` use `git checkout gh-pages` after cloning into local machine.
+  * This repo has only 1 Branch namely `gh-pages`. All the changes MUST be made on `gh-pages` branch.
   * After making changes and commit locally you need to make a `Pull Request` to submit your changes.
   * To do that, first make add a remote using `git remote add origin <RepoLink>`.
   * Resolve conflicts if any by making changes to respective files.
