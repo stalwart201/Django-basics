@@ -15,6 +15,7 @@
   * [Shweta Suman](http://twitter.com/cosmologist10)
   * [Mannu Gupta](http://twitter.com/theparadoxer02)
   * [Shashank Kumar](http://twitter.com/realslimshanky)
+  * [Shivam Sharma](http://twitter.com/shivams334)
 
 ###Headines
   * What is Django ?
